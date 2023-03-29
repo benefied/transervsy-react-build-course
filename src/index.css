@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.container {
+  padding: 1.8rem;
+  border: 3px black;
+  border-style: solid;
+  margin-right: 18rem;
+  margin-left: 18rem;
+  margin-top: 2rem;
+  background-image: linear-gradient(120deg, rgb(168, 192, 168), rgb(161, 221, 112));
+}
+
+.header {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+  background: #fff;
+  color: black;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: black;
+  color: #fff;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.btn:active{
+  background: #fff;
+  color: black;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Task{
+  padding: 1rem;
+  background-color: grey;
+  margin: 1rem;
+}
+.Task h3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Task.Reminder{
+  border-left: 5px solid green;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
